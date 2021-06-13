@@ -42,7 +42,14 @@ nav {
   padding: 7px 34px;
   margin-left: 20px;
   background-color: green;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
+.nav-btn:hover {
+  background-color: rgba(73, 167, 73, 0.788);
+}
+
+/* Section 1 */
 
 .sec1-container {
   height: calc(100vh - 80px);
@@ -137,13 +144,13 @@ nav {
 
 .sec3 {
   background-color: #f7eee2;
-  height: calc(100vh - 80px);
+  height: 100vh;
 }
 
 .sec3-header {
   display: block;
   position: static;
-  padding-top: 100px;
+  padding-top: 130px;
   text-align: center;
 }
 .sec3-header h3 {
@@ -172,7 +179,7 @@ nav {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 37px 0;
+  padding: 50px 0;
 }
 
 .sec3-item {
@@ -216,10 +223,13 @@ nav {
 }
 
 /*Section 4 css */
+.sec4 .sec3-header {
+  padding-top: 80px;
+}
 
 .sec4-testimonial-container {
   display: flex;
-  margin: 40px auto;
+  margin: 45px auto 60px auto;
   max-width: 1140px;
   align-items: center;
   text-align: center;
@@ -270,4 +280,91 @@ nav {
   color: #8b8b99;
   font-style: italic;
   margin: 0 0 20px 0;
+}
+
+/* section 5 container */
+
+.sec5-container {
+  display: flex;
+  height: calc(100vh - 80px);
+  flex-direction: row;
+}
+
+.sec5-left {
+  flex: 8;
+}
+
+.sec5-right {
+  flex: 4;
+
+  background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+
+  height: calc(100vh - 80px);
+}
+
+.sec5-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 100px;
+  height: 50vh;
+  margin-top: 130px;
+}
+
+.sec5-right-container h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.sec5-right-container p {
+  font-family: "Poppins", sans-serif;
+  font-style: 14px;
+  font-weight: 300;
+  color: #8b8b99;
+  margin-top: 25px;
+  letter-spacing: ;
+}
+
+.email-input {
+  padding: 12px 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #8b8b99;
+  border-radius: 2px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  margin-top: 25px;
+  transition: all 0.2s linear;
+}
+
+.email-input:focus {
+  outline: 4px solid rgba(162, 162, 240, 0.459);
+}
+
+.sub-btn {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  width: 50%;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  background-color: #ff5877;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sub-btn:hover {
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #f69dad;
 }
