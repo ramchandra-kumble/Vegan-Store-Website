@@ -368,3 +368,143 @@ nav {
   border-bottom-right-radius: 0px;
   background-color: #f69dad;
 }
+
+/* Section 6 */
+
+.sec6-container {
+  background-color: #edfcf7;
+  font-family: "Poppins", sans-serif;
+}
+
+.sec6-items {
+  display: flex;
+  justify-content: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.sec6-item {
+  padding: 40px;
+}
+
+.sec6-item h1 {
+  margin-bottom: 10px;
+  font-size: 34px;
+  font-weight: 600;
+}
+.sec6-item p {
+  font-style: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: #37e0a8;
+  letter-spacing: 0.5px;
+}
+/* section 8 */
+.sec8 {
+  height: 100vh;
+}
+
+.sec8-container {
+  display: flex;
+}
+
+.sec8-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 80px 20px 80px 180px;
+}
+.sec8-left-header {
+}
+
+.sec8-left-header h3 {
+  color: #91ac41;
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  margin: 0;
+}
+
+.sec8-left-header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.sec8-left-header p {
+  font-family: "Poppins", sans-serif;
+  font-style: 16px;
+  font-weight: 500;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  margin: 15px 0;
+}
+.sec8-left-list h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.sec8-left-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: 16px;
+  font-weight: 500;
+  color: #8b8b99;
+}
+
+.sec8-left-list ul li {
+  margin: 5px 0;
+}
+
+.sec8-right {
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 160px 80px 100px;
+}
+.sec8-right-header h3 {
+  color: #91ac41;
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  margin: 0;
+}
+
+.sec8-right-header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.sec8-right-header p {
+  font-family: "Poppins", sans-serif;
+  font-style: 16px;
+  font-weight: 500;
+  color: #8b8b99;
+  letter-spacing: 0.5px;
+  margin: 15px 0;
+}
+
+.sec-8-right-form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 50px 0 0;
+}
+
+/* footer */
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: black;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 25px 0;
+}
