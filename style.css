@@ -445,11 +445,12 @@ nav {
   font-family: "Poppins", sans-serif;
   font-size: 28px;
   font-weight: 800;
+  margin-top: 25px;
 }
 
 .sec8-left-list ul {
   list-style: none;
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-style: 16px;
@@ -458,7 +459,7 @@ nav {
 }
 
 .sec8-left-list ul li {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .sec8-right {
@@ -495,6 +496,44 @@ nav {
   flex-direction: column;
   box-sizing: border-box;
   padding: 0 50px 0 0;
+  margin-top: 35px;
+}
+
+.sec8-input {
+  font-size: 16px;
+  padding: 12px 10px;
+  border: 1px solid gray;
+  color: #8b8b99;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.sec8-input-textarea {
+  font-family: "Poppins", sans-serif;
+  width: calc(100% - 21px);
+  height: 120px;
+  padding: 12px 10px;
+  border: 1px solid gray;
+  color: #8b8b99;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  outline: none;
+}
+
+.sec8-submitnow {
+  width: 40%;
+  padding: 12px 10px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #aad236;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 /* footer */
@@ -507,4 +546,5 @@ nav {
   margin: 0 auto;
   justify-content: center;
   padding: 25px 0;
+  margin-top: 80px;
 }
